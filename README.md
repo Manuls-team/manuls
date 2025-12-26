@@ -55,6 +55,9 @@ yarn dev
 
 The application will start and be available at `http://localhost:5173` (or another port if 5173 is already in use).
 
+## 📜 GH page
+https://manuls-team.github.io/manuls
+
 ## 📜 Available Scripts
 
 In the project directory, you can run:
