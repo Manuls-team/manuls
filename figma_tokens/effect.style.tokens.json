@@ -1,0 +1,42 @@
+{
+  "Shadow": {
+    "Button": {
+      "focus": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "offsetX": "0px",
+            "offsetY": "0px",
+            "blur": "0px",
+            "spread": "4px",
+            "color": "#a852a633"
+          }
+        ]
+      },
+      "default": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "offsetX": "0px",
+            "offsetY": "0px",
+            "blur": "6px",
+            "spread": "0px",
+            "color": "#a852a6"
+          }
+        ]
+      },
+      "focus-transparent": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "offsetX": "0px",
+            "offsetY": "0px",
+            "blur": "0px",
+            "spread": "4px",
+            "color": "#ffffff66"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #121213;
+  --color-secondary: #05e1ec;
+  --color-tertiary: #c6fa85;
+  --color-tertiary-alt: #6e85c0;
+  --color-accent: #af2364;
+  --color-accent-light: #a852a6;
+  --color-stroke: #18181b;
+  --color-text-main: #a1a1aa;
+  --color-text-title: #e6e8e9;
+  --color-text-accent: #d3fcfe;
+  --color-bg-dark: #18181b;
+  --color-background: #09090b;
+
+  --shadow-button-focus: 0 0 0 4px #a852a633;
+  --shadow-button-default: 0 0 6px 0 #a852a6;
+  --shadow-button-focus-transparent: 0 0 0 4px #ffffff66;
+
+  --background-image-button-primary: linear-gradient(
+    180deg,
+    #05e1ec 0%,
+    #6e85c0 100%
+  );
+  --background-image-button-secondary: linear-gradient(
+    61deg,
+    #af2364 0%,
+    #a852a6 100%
+  );
+  --background-image-text-gradient: linear-gradient(
+    180deg,
+    #a852a6 0%,
+    #05e1ec 100%
+  );
+  --background-image-text-gradient-alt: linear-gradient(
+    180deg,
+    #05e1ec 0%,
+    #c6fa85 100%
+  );
+  --background-image-test-gradient: linear-gradient(
+    180deg,
+    #38438b 0%,
+    #944b94 25%,
+    #d75a88 50%,
+    #eb6c7d 75%,
+    #ffb25f 100%
+  );
+
+  --spacing: 0.25rem;
+  --radius: 0.625rem;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --background: var(--color-background);
+  --foreground: var(--color-text-title);
+  --card: var(--color-bg-dark);
+  --card-foreground: var(--color-text-main);
+  --popover: var(--color-primary);
+  --popover-foreground: var(--color-text-main);
+  --primary-foreground: var(--color-primary);
+  --secondary: var(--color-stroke);
+  --secondary-foreground: var(--color-text-title);
+  --muted: var(--color-stroke);
+  --muted-foreground: var(--color-text-main);
+  --accent: var(--color-stroke);
+  --accent-foreground: var(--color-text-title);
+  --destructive: #d4183d;
+  --destructive-foreground: #fff;
+  --border: var(--color-stroke);
+  --input: transparent;
+  --ring: var(--color-secondary);
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+    outline-color: var(--ring);
+  }
+
+  body {
+    margin: 0;
+    font-family: var(--font-sans);
+    background-color: var(--background);
+    color: var(--foreground);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+}
+
+@utility gradient-text {
+  background: var(--background-image-text-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@utility gradient-purple-cyan {
+  background: linear-gradient(
+    269.1deg,
+    rgba(168, 82, 166, 0.14) 0.56%,
+    rgba(5, 225, 236, 0.11) 76.94%
+  );
+}
+
+@utility gradient-cyan-blue {
+  background: linear-gradient(
+    270deg,
+    rgba(5, 225, 236, 0.06) 129.11%,
+    rgba(110, 133, 192, 0.07) 34.37%
+  );
+}
+
+@utility gradient-purple-blue {
+  background: linear-gradient(
+    0deg,
+    rgba(175, 35, 100, 0.15) 18.24%,
+    rgba(73, 69, 255, 0.02) 95.37%
+  );
+}
+
+@utility gradient-team {
+  background: linear-gradient(
+    132.74deg,
+    rgba(5, 225, 236, 0.1) 29.14%,
+    rgba(16, 65, 189, 0.12) 70.86%
+  );
+}
+
+@utility radial-gradient-purple {
+  background: radial-gradient(
+    44.33% 6.84% at 50% 50.64%,
+    rgba(175, 35, 100, 0.16) 1.82%,
+    rgba(168, 82, 166, 0.02) 100%
+  );
+}
+
+@utility glassmorphism {
+  backdrop-filter: blur(20px);
+  background-color: rgba(18, 18, 19, 0.01);
+}
+
+/* Specific shadow from the provided block */
+@utility shadow-cyan {
+  --tw-shadow: 0px 0px 10px 0px rgba(5, 225, 236, 0.25);
+  box-shadow:
+    var(--tw-inset-shadow, 0 0 #0000), var(--tw-inset-ring-shadow, 0 0 #0000),
+    var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000),
+    var(--tw-shadow);
+}

@@ -1,0 +1,145 @@
+{
+  "Colors": {
+    "primary": {
+      "$type": "color",
+      "$value": "#121213"
+    },
+    "secondary": {
+      "$type": "color",
+      "$value": "#05e1ec"
+    },
+    "tertiary": {
+      "$type": "color",
+      "$value": "#c6fa85"
+    },
+    "tertiary-alt": {
+      "$type": "color",
+      "$value": "#6e85c0"
+    },
+    "accent": {
+      "$type": "color",
+      "$value": "#af2364"
+    },
+    "accent-light": {
+      "$type": "color",
+      "$value": "#a852a6"
+    },
+    "stroke": {
+      "$type": "color",
+      "$value": "#18181b"
+    },
+    "Main text": {
+      "$type": "color",
+      "$value": "#a1a1aa"
+    },
+    "Title main": {
+      "$type": "color",
+      "$value": "#e6e8e9"
+    },
+    "Text accent": {
+      "$type": "color",
+      "$value": "#d3fcfe"
+    },
+    "dark bg": {
+      "$type": "color",
+      "$value": "#18181b"
+    }
+  },
+  "Button gradient": {
+    "$type": "gradient",
+    "$value": {
+      "type": "linear",
+      "angle": 180,
+      "stops": [
+        {
+          "color": "#05e1ec",
+          "position": 0
+        },
+        {
+          "color": "#6e85c0",
+          "position": 1
+        }
+      ]
+    }
+  },
+  "Button secondary gradient": {
+    "$type": "gradient",
+    "$value": {
+      "type": "linear",
+      "angle": 61,
+      "stops": [
+        {
+          "color": "#af2364",
+          "position": 0
+        },
+        {
+          "color": "#a852a6",
+          "position": 1
+        }
+      ]
+    }
+  },
+  "text gradient": {
+    "$type": "gradient",
+    "$value": {
+      "type": "linear",
+      "angle": 180,
+      "stops": [
+        {
+          "color": "#a852a6",
+          "position": 0
+        },
+        {
+          "color": "#05e1ec",
+          "position": 1
+        }
+      ]
+    }
+  },
+  "Text gradient alt": {
+    "$type": "gradient",
+    "$value": {
+      "type": "linear",
+      "angle": 180,
+      "stops": [
+        {
+          "color": "#05e1ec",
+          "position": 0
+        },
+        {
+          "color": "#c6fa85",
+          "position": 1
+        }
+      ]
+    }
+  },
+  "test": {
+    "$type": "gradient",
+    "$value": {
+      "type": "linear",
+      "angle": 180,
+      "stops": [
+        {
+          "color": "#38438b",
+          "position": 0
+        },
+        {
+          "color": "#944b94",
+          "position": 0.25
+        },
+        {
+          "color": "#d75a88",
+          "position": 0.5
+        },
+        {
+          "color": "#eb6c7d",
+          "position": 0.75
+        },
+        {
+          "color": "#ffb25f",
+          "position": 1
+        }
+      ]
+    }
+  }
+}
