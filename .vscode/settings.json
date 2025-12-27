@@ -1,6 +1,11 @@
 {
     "css.lint.unknownAtRules": "ignore",
     "files.associations": {
-        "*.css": "tailwindcss"
+        "*.css": "tailwindcss",
+        "*.scss": "tailwindcss"
+    },
+    "appmod.experimental.task.typescript.upgrade": true,
+    "editor.quickSuggestions": {
+        "strings": "on"
     }
 }
