@@ -1,8 +1,8 @@
-import type { SVGProps } from "react";
+import type { SVGProps } from 'react'
 
 const PostCSSIcon = ({
-  fill = "white",
-  accentFill = "#69D3A7",
+  fill = 'white',
+  accentFill = '#69D3A7',
   ...props
 }: SVGProps<SVGSVGElement> & { accentFill?: string }) => (
   <svg viewBox="0 0 80 32" fill="none" {...props}>
@@ -71,6 +71,6 @@ const PostCSSIcon = ({
       </linearGradient>
     </defs>
   </svg>
-);
+)
 
-export default PostCSSIcon;
+export default PostCSSIcon

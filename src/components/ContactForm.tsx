@@ -7,7 +7,7 @@ export default function ContactForm() {
           <h2 className="text-4xl font-bold uppercase mb-4">
             <span className="bg-gradient-to-r from-accent-light to-secondary bg-clip-text text-transparent">
               Let's
-            </span>{" "}
+            </span>{' '}
             talk
           </h2>
           <p className="text-text-accent text-lg max-w-[740px] mx-auto">
@@ -77,5 +77,5 @@ export default function ContactForm() {
         </form>
       </div>
     </section>
-  );
+  )
 }

@@ -1,4 +1,4 @@
-import type { SVGProps } from "react";
+import type { SVGProps } from 'react'
 
 const VuetifyIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg viewBox="0 0 32 32" fill="none" {...props}>
@@ -19,6 +19,6 @@ const VuetifyIcon = (props: SVGProps<SVGSVGElement>) => (
       fill="#7BC6FF"
     />
   </svg>
-);
+)
 
-export default VuetifyIcon;
+export default VuetifyIcon

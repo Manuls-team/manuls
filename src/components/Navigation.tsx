@@ -1,4 +1,4 @@
-import LogoIcon from "./icons/LogoIcon";
+import LogoIcon from './icons/LogoIcon'
 
 export default function Navigation() {
   return (
@@ -38,5 +38,5 @@ export default function Navigation() {
         </ul>
       </div>
     </nav>
-  );
+  )
 }

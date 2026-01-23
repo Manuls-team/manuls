@@ -1,13 +1,13 @@
-import type { SVGProps } from "react";
+import type { SVGProps } from 'react'
 
 const StrapiIcon = ({
-  fill = "white",
-  accentFill = "#4945FF",
-  secondaryFill = "#9593FF",
+  fill = 'white',
+  accentFill = '#4945FF',
+  secondaryFill = '#9593FF',
   ...props
 }: SVGProps<SVGSVGElement> & {
-  accentFill?: string;
-  secondaryFill?: string;
+  accentFill?: string
+  secondaryFill?: string
 }) => (
   <svg viewBox="0 0 206.27 48" fill="none" {...props}>
     <path
@@ -66,6 +66,6 @@ const StrapiIcon = ({
       fill={secondaryFill}
     />
   </svg>
-);
+)
 
-export default StrapiIcon;
+export default StrapiIcon

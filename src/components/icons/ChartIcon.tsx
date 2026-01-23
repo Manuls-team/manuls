@@ -1,4 +1,4 @@
-import type { SVGProps } from "react";
+import type { SVGProps } from 'react'
 
 const ChartIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg viewBox="0 0 48 48" fill="none" {...props}>
@@ -20,6 +20,6 @@ const ChartIcon = (props: SVGProps<SVGSVGElement>) => (
       fill="url(#chartGrad)"
     />
   </svg>
-);
+)
 
-export default ChartIcon;
+export default ChartIcon

@@ -6,19 +6,17 @@ export default function Hero() {
         className="absolute inset-0 blur-[100px]"
         style={{
           background:
-            "radial-gradient(ellipse at center, rgba(175,35,100,0.16) 0%, rgba(168,82,166,0.02) 100%)",
-          width: "1030px",
-          height: "648px",
-          top: "50%",
-          left: "50%",
-          transform: "translate(-50%, -50%)",
+            'radial-gradient(ellipse at center, rgba(175,35,100,0.16) 0%, rgba(168,82,166,0.02) 100%)',
+          width: '1030px',
+          height: '648px',
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)',
         }}
       />
 
       <div className="relative z-10 text-center flex flex-col items-center gap-4">
-        <p className="text-text-title text-4xl font-semibold">
-          We develop - you enjoy
-        </p>
+        <p className="text-text-title text-4xl font-semibold">We develop - you enjoy</p>
 
         <h1 className="text-6xl font-bold gradient-text">MANULS TEAM</h1>
 
@@ -36,5 +34,5 @@ export default function Hero() {
         </div>
       </div>
     </section>
-  );
+  )
 }

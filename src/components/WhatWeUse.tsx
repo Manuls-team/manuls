@@ -1,15 +1,15 @@
-import ReactIcon from "./icons/ReactIcon";
-import VueIcon from "./icons/VueIcon";
-import VuetifyIcon from "./icons/VuetifyIcon";
-import NextIcon from "./icons/NextIcon";
-import NuxtIcon from "./icons/NuxtIcon";
-import TailwindIcon from "./icons/TailwindIcon";
-import SassIcon from "./icons/SassIcon";
-import PostCSSIcon from "./icons/PostCSSIcon";
-import GraphQLIcon from "./icons/GraphQLIcon";
-import AdobeCommerceIcon from "./icons/AdobeCommerceIcon";
-import HyvaIcon from "./icons/HyvaIcon";
-import StrapiIcon from "./icons/StrapiIcon";
+import ReactIcon from './icons/ReactIcon'
+import VueIcon from './icons/VueIcon'
+import VuetifyIcon from './icons/VuetifyIcon'
+import NextIcon from './icons/NextIcon'
+import NuxtIcon from './icons/NuxtIcon'
+import TailwindIcon from './icons/TailwindIcon'
+import SassIcon from './icons/SassIcon'
+import PostCSSIcon from './icons/PostCSSIcon'
+import GraphQLIcon from './icons/GraphQLIcon'
+import AdobeCommerceIcon from './icons/AdobeCommerceIcon'
+import HyvaIcon from './icons/HyvaIcon'
+import StrapiIcon from './icons/StrapiIcon'
 
 export default function WhatWeUse() {
   return (
@@ -18,13 +18,12 @@ export default function WhatWeUse() {
       <div
         className="absolute blur-[100px]"
         style={{
-          background:
-            "linear-gradient(90deg, rgba(5,225,236,0.06) 0%, rgba(73,69,255,0.1) 100%)",
-          width: "1254px",
-          height: "306px",
-          top: "200px",
-          left: "50%",
-          transform: "translateX(-50%)",
+          background: 'linear-gradient(90deg, rgba(5,225,236,0.06) 0%, rgba(73,69,255,0.1) 100%)',
+          width: '1254px',
+          height: '306px',
+          top: '200px',
+          left: '50%',
+          transform: 'translateX(-50%)',
         }}
       />
 
@@ -34,7 +33,7 @@ export default function WhatWeUse() {
           <h2 className="text-4xl font-bold uppercase">
             <span className="bg-gradient-to-r from-accent-light to-secondary bg-clip-text text-transparent">
               What
-            </span>{" "}
+            </span>{' '}
             we use
           </h2>
         </div>
@@ -42,14 +41,11 @@ export default function WhatWeUse() {
         {/* Adobe Commerce Section */}
         <div className="flex items-center gap-8 mb-16 justify-center">
           <div className="bg-bg-dark rounded-lg p-6 max-w-md">
-            <h3 className="text-text-title text-2xl mb-3">
-              Adobe Commerce (Magento)
-            </h3>
+            <h3 className="text-text-title text-2xl mb-3">Adobe Commerce (Magento)</h3>
             <p className="text-text-main text-sm leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
 
@@ -78,10 +74,9 @@ export default function WhatWeUse() {
           <div className="bg-bg-dark rounded-lg p-6 max-w-md">
             <h3 className="text-text-title text-2xl mb-3">Strapi</h3>
             <p className="text-text-main text-sm leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
         </div>
@@ -100,5 +95,5 @@ export default function WhatWeUse() {
         </div>
       </div>
     </section>
-  );
+  )
 }

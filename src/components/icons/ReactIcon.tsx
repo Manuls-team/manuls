@@ -1,9 +1,6 @@
-import type { SVGProps } from "react";
+import type { SVGProps } from 'react'
 
-const ReactIcon = ({
-  color = "#61DAFB",
-  ...props
-}: SVGProps<SVGSVGElement>) => (
+const ReactIcon = ({ color = '#61DAFB', ...props }: SVGProps<SVGSVGElement>) => (
   <svg viewBox="0 0 36.0851 32" fill="none" {...props}>
     <g clipPath="url(#clip0_react)">
       <path
@@ -32,6 +29,6 @@ const ReactIcon = ({
       </clipPath>
     </defs>
   </svg>
-);
+)
 
-export default ReactIcon;
+export default ReactIcon

@@ -1,4 +1,4 @@
-import type { SVGProps } from "react";
+import type { SVGProps } from 'react'
 
 const LogoIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg viewBox="0 0 56.8615 48" fill="none" {...props}>
@@ -22,6 +22,6 @@ const LogoIcon = (props: SVGProps<SVGSVGElement>) => (
       clipRule="evenodd"
     />
   </svg>
-);
+)
 
-export default LogoIcon;
+export default LogoIcon

@@ -1,4 +1,4 @@
-import type { SVGProps } from "react";
+import type { SVGProps } from 'react'
 
 const CertificateIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg viewBox="0 0 48 48" fill="none" {...props}>
@@ -20,6 +20,6 @@ const CertificateIcon = (props: SVGProps<SVGSVGElement>) => (
       fill="url(#certGrad)"
     />
   </svg>
-);
+)
 
-export default CertificateIcon;
+export default CertificateIcon

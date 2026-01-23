@@ -1,10 +1,10 @@
-import Navigation from "./components/Navigation";
-import Hero from "./components/Hero";
-import WhyManuls from "./components/WhyManuls";
-import WhatWeUse from "./components/WhatWeUse";
-import MeetTeam from "./components/MeetTeam";
-import ContactForm from "./components/ContactForm";
-import Footer from "./components/Footer";
+import Navigation from './components/Navigation'
+import Hero from './components/Hero'
+import WhyManuls from './components/WhyManuls'
+import WhatWeUse from './components/WhatWeUse'
+import MeetTeam from './components/MeetTeam'
+import ContactForm from './components/ContactForm'
+import Footer from './components/Footer'
 
 export default function App() {
   return (
@@ -17,5 +17,5 @@ export default function App() {
       <ContactForm />
       <Footer />
     </div>
-  );
+  )
 }

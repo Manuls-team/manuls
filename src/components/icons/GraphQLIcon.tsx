@@ -1,9 +1,6 @@
-import type { SVGProps } from "react";
+import type { SVGProps } from 'react'
 
-const GraphQLIcon = ({
-  fill = "#E434AA",
-  ...props
-}: SVGProps<SVGSVGElement>) => (
+const GraphQLIcon = ({ fill = '#E434AA', ...props }: SVGProps<SVGSVGElement>) => (
   <svg viewBox="0 0 32 32" fill="none" {...props}>
     <path
       d="M2.53838 23.877L1.38838 23.2128L14.2009 1.0225L15.3501 1.6865L2.53838 23.877Z"
@@ -32,6 +29,6 @@ const GraphQLIcon = ({
       fill={fill}
     />
   </svg>
-);
+)
 
-export default GraphQLIcon;
+export default GraphQLIcon

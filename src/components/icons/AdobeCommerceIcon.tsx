@@ -1,9 +1,6 @@
-import type { SVGProps } from "react";
+import type { SVGProps } from 'react'
 
-const AdobeCommerceIcon = ({
-  fill = "#FA0C00",
-  ...props
-}: SVGProps<SVGSVGElement>) => (
+const AdobeCommerceIcon = ({ fill = '#FA0C00', ...props }: SVGProps<SVGSVGElement>) => (
   <svg
     {...props}
     width="184"
@@ -78,6 +75,6 @@ const AdobeCommerceIcon = ({
       </clipPath>
     </defs>
   </svg>
-);
+)
 
-export default AdobeCommerceIcon;
+export default AdobeCommerceIcon

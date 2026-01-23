@@ -1,6 +1,6 @@
-import type { SVGProps } from "react";
+import type { SVGProps } from 'react'
 
-const NextIcon = ({ fill = "white", ...props }: SVGProps<SVGSVGElement>) => (
+const NextIcon = ({ fill = 'white', ...props }: SVGProps<SVGSVGElement>) => (
   <svg viewBox="0 0 130 26" fill="none" {...props}>
     <path
       d="M86.42 0.0107485H109.064V4.1275H100.081V25.7852H95.5896V4.1275H86.42V0.0107485Z"
@@ -37,6 +37,6 @@ const NextIcon = ({ fill = "white", ...props }: SVGProps<SVGSVGElement>) => (
       fill={fill}
     />
   </svg>
-);
+)
 
-export default NextIcon;
+export default NextIcon

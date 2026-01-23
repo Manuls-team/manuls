@@ -1,4 +1,4 @@
-import FooterLogoIcon from "./icons/FooterLogoIcon";
+import FooterLogoIcon from './icons/FooterLogoIcon'
 
 export default function Footer() {
   return (
@@ -10,14 +10,12 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <p className="text-text-main text-sm text-center">
-          © 2024 Manuls. All rights reserved.
-        </p>
+        <p className="text-text-main text-sm text-center">© 2024 Manuls. All rights reserved.</p>
 
         {/* Legal */}
         <p className="text-sm text-center">
           <span className="text-text-main">
-            This site is protected by reCAPTCHA and the Google{" "}
+            This site is protected by reCAPTCHA and the Google{' '}
           </span>
           <a
             href="https://policies.google.com/privacy"
@@ -36,5 +34,5 @@ export default function Footer() {
         </p>
       </div>
     </footer>
-  );
+  )
 }

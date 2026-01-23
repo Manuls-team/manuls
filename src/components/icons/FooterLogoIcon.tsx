@@ -1,9 +1,6 @@
-import type { SVGProps } from "react";
+import type { SVGProps } from 'react'
 
-const FooterLogoIcon = ({
-  fill = "#A1A1AA",
-  ...props
-}: SVGProps<SVGSVGElement>) => (
+const FooterLogoIcon = ({ fill = '#A1A1AA', ...props }: SVGProps<SVGSVGElement>) => (
   <svg
     {...props}
     width="114"
@@ -19,6 +16,6 @@ const FooterLogoIcon = ({
       fill={fill}
     />
   </svg>
-);
+)
 
-export default FooterLogoIcon;
+export default FooterLogoIcon

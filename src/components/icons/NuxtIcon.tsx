@@ -1,8 +1,8 @@
-import type { SVGProps } from "react";
+import type { SVGProps } from 'react'
 
 const NuxtIcon = ({
-  fill = "#00DC82",
-  textFill = "white",
+  fill = '#00DC82',
+  textFill = 'white',
   ...props
 }: SVGProps<SVGSVGElement> & { textFill?: string }) => (
   <svg viewBox="0 0 104 26" fill="none" {...props}>
@@ -27,6 +27,6 @@ const NuxtIcon = ({
       fill={fill}
     />
   </svg>
-);
+)
 
-export default NuxtIcon;
+export default NuxtIcon

@@ -1,6 +1,6 @@
-import CertificateIcon from "./icons/CertificateIcon";
-import CheckIcon from "./icons/CheckIcon";
-import ChartIcon from "./icons/ChartIcon";
+import CertificateIcon from './icons/CertificateIcon'
+import CheckIcon from './icons/CheckIcon'
+import ChartIcon from './icons/ChartIcon'
 
 export default function WhyManuls() {
   return (
@@ -10,12 +10,12 @@ export default function WhyManuls() {
         className="absolute blur-[100px]"
         style={{
           background:
-            "linear-gradient(90deg, rgba(5,225,236,0.06) 0%, rgba(110,133,192,0.07) 100%)",
-          width: "1254px",
-          height: "306px",
-          top: "252px",
-          left: "50%",
-          transform: "translateX(-50%)",
+            'linear-gradient(90deg, rgba(5,225,236,0.06) 0%, rgba(110,133,192,0.07) 100%)',
+          width: '1254px',
+          height: '306px',
+          top: '252px',
+          left: '50%',
+          transform: 'translateX(-50%)',
         }}
       />
 
@@ -25,12 +25,12 @@ export default function WhyManuls() {
           <h2 className="text-4xl font-bold uppercase mb-4">
             <span className="bg-gradient-to-r from-accent-light to-secondary bg-clip-text text-transparent">
               Why
-            </span>{" "}
+            </span>{' '}
             Manuls
           </h2>
           <p className="text-text-accent text-lg max-w-[740px] mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
 
@@ -41,10 +41,9 @@ export default function WhyManuls() {
             <div className="flex-1 bg-bg-dark rounded-lg p-6 border border-stroke shadow-sm">
               <h3 className="text-white uppercase mb-2">Magento Development</h3>
               <p className="text-text-main text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p>
             </div>
 
@@ -57,10 +56,9 @@ export default function WhyManuls() {
             <div className="flex-1 bg-bg-dark rounded-lg p-6 border border-stroke shadow-sm">
               <h3 className="text-white uppercase mb-2">Magento Development</h3>
               <p className="text-text-main text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p>
             </div>
           </div>
@@ -70,10 +68,9 @@ export default function WhyManuls() {
             <div className="flex-1 bg-bg-dark rounded-lg p-6 border border-stroke shadow-sm">
               <h3 className="text-white uppercase mb-2">Magento Development</h3>
               <p className="text-text-main text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p>
             </div>
 
@@ -86,10 +83,9 @@ export default function WhyManuls() {
             <div className="flex-1 bg-bg-dark rounded-lg p-6 border border-stroke shadow-sm">
               <h3 className="text-white uppercase mb-2">Magento Development</h3>
               <p className="text-text-main text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p>
             </div>
           </div>
@@ -115,7 +111,7 @@ export default function WhyManuls() {
         </div>
       </div>
     </section>
-  );
+  )
 }
 
 function FeatureBlock({
@@ -123,9 +119,9 @@ function FeatureBlock({
   title,
   description,
 }: {
-  icon: React.ReactNode;
-  title: string;
-  description: string;
+  icon: React.ReactNode
+  title: string
+  description: string
 }) {
   return (
     <div className="flex-1 min-w-[320px] max-w-sm p-4 flex flex-col items-center text-center gap-2">
@@ -133,5 +129,5 @@ function FeatureBlock({
       <h3 className="text-white text-lg">{title}</h3>
       <p className="text-text-main text-sm">{description}</p>
     </div>
-  );
+  )
 }
